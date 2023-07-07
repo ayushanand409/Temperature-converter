@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #A7727D;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #EDDBC7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .input label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  .input input,
+  .input select {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F9F5E7;
+  }
+
+  #convert-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #convert-btn:hover {
+    background-color: #2E8B57;
+  }
+
+  .output {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #converted-temperature {
+    font-size: 24px;
+    color: #333;
+  }
+
+  #error-message {
+    font-size: 16px;
+    color: #f00;
+  }
